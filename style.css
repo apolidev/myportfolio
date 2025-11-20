@@ -223,7 +223,7 @@ footer {
   }
 }
 
-@media (max-width: 860px){
+@media (max-width: 860px) or (orientation: portrait) {
 
 .header {
   display: grid;
