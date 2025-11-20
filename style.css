@@ -223,7 +223,7 @@ footer {
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 860px){
 
 .header {
   display: grid;
@@ -266,7 +266,7 @@ footer {
 }
 
 .item2 {
-  height: 50%;
+  height: 30%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
