@@ -247,7 +247,7 @@ footer {
 .main {
   display: flex;
   flex-direction: column-reverse;
-  width: 99%;
+  width: 100vw;
   height: 100vh;
   margin-top: 10px;
   gap: 10;
@@ -322,7 +322,7 @@ footer {
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 40px rgb(1, 30, 71);
-  width: 400px;
+  width: 60%;
   height: 300px;
   align-content: center;
   align-items: center;
@@ -354,7 +354,7 @@ footer {
 h1 {
   font-family: 'Times New Roman', Times, serif;
   color: rgb(255, 255, 255);
-  font-size: 2em;
+  font-size: 4em;
   padding: 10px;
   text-align: center;
 }
@@ -363,15 +363,15 @@ h5 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: small;
+  font-size: larger;
 }
 
 h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1em;
+  font-size: 1.5;
   font-weight: 700;
   color: rgb(0, 29, 54);
-  transition: all 0.3s;
+  transition: ease-in-out 0.3s;
 }
 
 h2:hover {
