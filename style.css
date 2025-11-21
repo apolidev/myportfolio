@@ -104,6 +104,7 @@ body {
   justify-content: center;
   border-radius: 5px;
   line-height: 1em;
+  margin: 0px ;
 }
 
 .lilcard {
@@ -136,6 +137,7 @@ h2 {
   size: 100px;
   color: rgb(0, 29, 54);
   transition: all 0.3s;
+  margin: 0px ;
 }
 
 h2:hover {
@@ -224,7 +226,7 @@ footer {
   }
 }
 
-@media (max-width: 860px) or (orientation: portrait) {
+@media (max-width: 860px) {
 
 
 body {
